@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-selectors</title>
+    <style>
+        body{
+            background-color:rgb(246, 242, 254);
+            margin: 10px;
+            border: 10px solid white;
+            padding-bottom: 50px;
+        }
+        h1{
+            color: rgb(136, 93, 241);
+            text-align: center;
+            text-decoration: underline rgb(136, 93, 241);
+        }
+        h2{
+            text-align: center;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            color: blueviolet;
+            text-decoration: underline rgb(136, 93, 241);
+            background-color:rgb(246, 242, 254);
+            padding: 15px 25px;
+            border: 1px solid rgb(136, 93, 241);
+            border-radius: 25px;
+            box-shadow: 4px 4px 8px rgb(177, 176, 178);
+            transition: all 200ms ease-in-out;    
+        }
+        button:hover{
+            color:rgb(246, 242, 254);
+            background-color: blueviolet;
+            text-decoration: underline white;
+            cursor: pointer;
+        }
+        h5{
+            text-align: center;
+        }
+        img{
+         width: 200px;
+         display: block;
+         margin: 0 auto;
+
+        }
+        .people{
+           color: blue; 
+        }
+        .place{
+            color: red;
+        }
+    .thing{
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <a href="https://www.shecodes.io/">
+    <h1>
+        SheCodes
+    </h1>
+    </a>
+    <h2>
+        Coding Workshop
+    </h2>
+    <h3>
+        <a href="https://www.shecodes.io/free-class" target="_blank">
+        <button>
+            Apply now
+        </button>
+    </a>
+    </h3>
+    <p>
+        <ul>
+            <li>
+                <a href="https://www.shecodes.io/students" class="people">
+                Coders
+            </a>
+            </li>
+            <li>
+                <a href="https://www.shecodes.io/workshops" class="place">
+                Courses
+            </a>
+            </li>
+            <li>
+                <a href="https://www.shecodes.io/stories" class="thing">
+                Stories
+            </a>
+            </li>
+        </ul>
+    </p>
+    <hr/>
+    <h5>
+        More Info
+    </h5>
+    <img src="https://media.istockphoto.com/vectors/young-female-character-writing-code-on-a-desktop-computer-working-vector-id1219473620?k=20&m=1219473620&s=612x612&w=0&h=rgN3XvnCmlaLpiFimQ9QaAoZcfV0OVKdrtN95CSwCHA=" 
+    alt="Woman Coding" />
+</body>
+</html>
